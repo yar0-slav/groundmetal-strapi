@@ -9,15 +9,15 @@ module.exports = ({ env }) => ({
       password: env('PGPASSWORD', 'password'),
       ssl: env.bool(true),
     },
-    acquireConnectionTimeout: 60000,
+    acquireConnectionTimeout: 5000,
     pool: {
       min: 0,
-      max: 5,
-      createTimeoutMillis: 30000,
-      acquireTimeoutMillis: 60000,
-      idleTimeoutMillis: 30000,
+      max: 10,
+      createTimeoutMillis: 8000,
+      acquireTimeoutMillis: 8000,
+      idleTimeoutMillis: 8000,
       reapIntervalMillis: 1000,
-      createRetryIntervalMillis: 300,
+      createRetryIntervalMillis: 100,
     }
-  },
+  }
 });
