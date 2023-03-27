@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "kovoobrabanie_uvods",
+  "info": {
+    "singularName": "kovoobrabanie-uvod",
+    "pluralName": "kovoobrabanie-uvods",
+    "displayName": "Kovoobrabanie uvod"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uvod": {
+      "type": "richtext"
+    }
+  }
+}

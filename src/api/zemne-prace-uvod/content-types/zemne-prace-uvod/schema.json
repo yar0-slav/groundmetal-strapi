@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "zemne_prace_uvods",
+  "info": {
+    "singularName": "zemne-prace-uvod",
+    "pluralName": "zemne-prace-uvods",
+    "displayName": "zemne prace uvod"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uvod": {
+      "type": "richtext"
+    }
+  }
+}

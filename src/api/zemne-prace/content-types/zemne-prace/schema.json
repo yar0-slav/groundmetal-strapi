@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zemne_praces",
+  "info": {
+    "singularName": "zemne-prace",
+    "pluralName": "zemne-praces",
+    "displayName": "zemne prace"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "urlSlug": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

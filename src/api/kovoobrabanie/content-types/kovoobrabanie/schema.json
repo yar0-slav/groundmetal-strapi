@@ -1,17 +1,17 @@
 {
   "kind": "collectionType",
-  "collectionName": "bagrovanie_posts",
+  "collectionName": "kovoobrabanies",
   "info": {
-    "singularName": "bagrovanie-post",
-    "pluralName": "bagrovanie-posts",
-    "displayName": "bagrovanie post"
+    "singularName": "kovoobrabanie",
+    "pluralName": "kovoobrabanies",
+    "displayName": "Kovoobrabanie"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "heading": {
       "type": "string"
     },
     "urlSlug": {

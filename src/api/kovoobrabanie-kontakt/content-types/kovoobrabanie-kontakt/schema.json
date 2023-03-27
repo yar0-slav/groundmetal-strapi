@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "kovoobrabanie_kontakts",
+  "info": {
+    "singularName": "kovoobrabanie-kontakt",
+    "pluralName": "kovoobrabanie-kontakts",
+    "displayName": "Kovoobrabanie kontakt"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kontakt": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "zemne_prace_kontakts",
+  "info": {
+    "singularName": "zemne-prace-kontakt",
+    "pluralName": "zemne-prace-kontakts",
+    "displayName": "Zemne prace kontakt"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kontakt": {
+      "type": "richtext"
+    }
+  }
+}
